@@ -4,8 +4,10 @@ var morgan = require('morgan')
 var exphbs = require('express-handlebars');
 const path = require('path')
 var route = require('./routes/index')
-const port = 3000
 
+dotenv.config()
+
+var port = process.env.PORT || 3000
 
 const http = require('http');
 const server = http.createServer(app);
