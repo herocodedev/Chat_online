@@ -4,7 +4,7 @@ var morgan = require('morgan')
 var exphbs = require('express-handlebars');
 const path = require('path')
 var route = require('./routes/index')
-
+var dotenv = require('dotenv')
 dotenv.config()
 
 var port = process.env.PORT || 3000
