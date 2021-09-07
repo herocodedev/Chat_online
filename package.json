@@ -1,0 +1,24 @@
+{
+    "name": "chat",
+    "version": "1.0.0",
+    "description": "Chat",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Chat"
+    ],
+    "author": "Thong",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.3",
+        "socket.io": "^4.2.0"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.12"
+    }
+}
